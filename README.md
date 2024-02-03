@@ -33,6 +33,7 @@ sum(0, 1, '1', 2); // ошибка с кодом INVALID_ARGUMENT
 Хотя бы один из элементов массива не типа number. Код ошибки INVALID_ELEMENT_IN_ARRAY.
 
 Примеры использования:
+```javascript
 intersection([1], [2]);            // []
 intersection([1, 2], [3, 2, 1]);   // [1, 2]
 intersection([1, 1], [1, 1]);      // [1]
@@ -41,7 +42,7 @@ intersection([], []);              // []
 intersection()                     // ошибка с кодом INVALID_ARGUMENTS_COUNT
 intersection([], '[]')             // ошибка с кодом INVALID_ARGUMENT
 intersection([], [1, '2'])         // ошибка с кодом INVALID_ELEMENT_IN_ARRAY
-
+```
 
 ___
 ### Вёрстка:
