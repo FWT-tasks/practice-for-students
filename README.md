@@ -35,11 +35,17 @@ sum(0, 1, '1', 2); // ошибка с кодом INVALID_ARGUMENT
 Примеры использования:
 intersection([1], [2]);            // []
 intersection([1, 2], [3, 2, 1]);   // [1, 2]
+
 intersection([1, 1], [1, 1]);      // [1]
+
 intersection([1, 2, 1], [1]);      // [1]
+
 intersection([], []);              // []
+
 intersection()                     // ошибка с кодом INVALID_ARGUMENTS_COUNT
+
 intersection([], '[]')             // ошибка с кодом INVALID_ARGUMENT
+
 intersection([], [1, '2'])         // ошибка с кодом INVALID_ELEMENT_IN_ARRAY
 
 
