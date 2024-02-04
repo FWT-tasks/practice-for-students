@@ -12,6 +12,7 @@ ___
 ```ts
 throw new Error(<код ошибки из задания>)
 ```
+Подробнее можно прочесть [здесь](https://learn.javascript.ru/try-catch).
 
 #### Функция sum
 
